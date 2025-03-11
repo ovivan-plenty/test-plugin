@@ -22,11 +22,13 @@ class TestPluginController extends Controller
 
         $contact = null;
 
-        $contact = $authHelper->processUnguarded(
-            function () use ($contactRepo, $contact) {
-                return $contactRepo->findContactById(42);
-            }
-        );
+        if ($contact) {
+            $contact = $authHelper->processUnguarded(
+                function () use ($contactRepo, $contact) {
+                    return $contactRepo->findContactById(42);
+                }
+            );
+        }
 
         return json_encode($contact);
     }
