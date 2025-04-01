@@ -1,0 +1,21 @@
+{
+  "sections":
+  [
+    {
+      "name": "Config.address",
+      "prefix": "address"
+    },
+    {
+      "name": "Config.contact",
+      "prefix": "contact"
+    },
+    {
+      "name": "Config.notifications",
+      "prefix": "notifications"
+    },
+    {
+      "name": "Config.termsAndConditions",
+      "prefix": "termsAndConditions"
+    }
+  ]
+}
