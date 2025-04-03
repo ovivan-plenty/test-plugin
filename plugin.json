@@ -2,7 +2,7 @@
     "name"              :   "TestPlugin",
     "namespace"         :   "TestPlugin",
     "type"              :   "backend",
-    "version"           :   "0.0.25",
+    "version"           :   "0.0.26",
     "pluginIcon"        :   "icon_plugin_xs.png",
     "description"       :   "Test trait",
     "author"            :   "Ovidiu Ivan",
