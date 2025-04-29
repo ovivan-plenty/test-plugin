@@ -1,7 +1,6 @@
 {
     "name"              :   "TestPlugin",
     "namespace"         :   "TestPlugin",
-    "type"              :   "backend",
     "version"           :    26,
     "pluginIcon"        :   "icon_plugin_xs.png",
     "description"       :   "Test trait",
