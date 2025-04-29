@@ -2,10 +2,10 @@
     "name"              :   "TestPlugin",
     "namespace"         :   "TestPlugin",
     "type"              :   "backend",
-    "version"           :   "0.0.26",
+    "version"           :    26,
     "pluginIcon"        :   "icon_plugin_xs.png",
     "description"       :   "Test trait",
     "author"            :   "Ovidiu Ivan",
     "authorIcon"        :   "icon_author_xs.png",
-    "serviceProvider"   :   "TestPlugin\\Providers\\TestPluginServiceProvider"
+    "serviceProvider"   :   "TestPlugin\\Providers\\TestPluginServiceProvider",
 }
